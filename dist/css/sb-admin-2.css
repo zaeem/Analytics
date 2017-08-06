@@ -624,6 +624,19 @@ max-height: 20px;
 .m-w142{
   min-width: 142px;
 }
+.m-w200{
+  min-width: 200px;
+}
+.m-w120{
+  min-width: 120px;
+}
+.m-w60{
+    min-width: 60px;
+}
+.mt-21{
+      margin-top: 21px;
+    display: inline-block;
+}
 .account-operated{
       margin-bottom: 10px;
 }
@@ -671,6 +684,146 @@ max-height: 20px;
 .signature-holder .sign-area span{
     text-transform: capitalize;
 }
+.personal-info .account-number-details{
+      overflow: hidden;
+    margin: 10px 0 0;
+}
+.personal-info .br-code{
+  margin: 0 0 5px;
+}
+.personal-info .account-number {
+      width: 100%;
+    text-align: right;
+}
+.personal-info .account-number-details ul{
+  float: right;
+}
+
+.font-s-11{
+  font-size: 11px;
+}
+
+.min-w150{
+  min-width: 150px;
+}
+.min-w186{
+min-width: 86px;
+}
+    
+.mb-0{
+  margin-bottom: 0 !important;
+}
+.mt-0{
+  margin-top: 0 !important;
+}
+.m-0{
+  margin: 0 !important;
+}
+.personal-info {
+  max-width: 1000px !important;
+}
+.personal-info .account-number-details label {
+  margin-right: 9px;
+}
+.personal-info .account-number-details label p {
+  margin: 0;
+  font-size: 11px;
+}
+.personal-info .account-number-details .account-number ul li:nth-child(15), .personal-info .account-number-details .account-number ul li:nth-child(12), .personal-info .account-number-details .account-number ul li:nth-child(5) {
+  background: #ddd;
+}
+.personal-info .account-number-details .account-number.ibn-num ul li:last-child, .personal-info .account-number-details .account-number.ibn-num ul li:nth-child(25), .personal-info .account-number-details .account-number.ibn-num ul li:nth-child(20), .personal-info .account-number-details .account-number.ibn-num ul li:nth-child(15), .personal-info .account-number-details .account-number.ibn-num ul li:nth-child(10), .personal-info .account-number-details .account-number.ibn-num ul li:nth-child(5) {
+  background: #ddd;
+}
+.personal-info .account-number-details .account-number.ibn-num ul li:nth-child(12) {
+  background: transparent;
+}
+.personal-info .account-number-details .date ul li:nth-child(6), .personal-info .account-number-details .date ul li:nth-child(3) {
+  background: #ddd;
+}
+.personal-info .account-number-details .table {
+  text-align: left;
+  border: 0;
+  margin-bottom: 0;
+}
+.personal-info .account-number-details .table > tbody > tr > td, .personal-info .account-number-details .table > tbody > tr > th, .personal-info .account-number-details .table > tfoot > tr > td, .personal-info .account-number-details .table > tfoot > tr > th, .personal-info .account-number-details .table > thead > tr > td, .personal-info .account-number-details .table > thead > tr > th {
+  border: 0;
+  padding: 0 5px !important;
+}
+.personal-info .heading-holder {
+  text-align: center;
+  background: #3d7a42;
+  margin: 10px 0 0;
+  color: #fff;
+  padding: 8px 0;
+  text-transform: uppercase;
+}
+.personal-info .heading-holder h4 {
+  margin: 0;
+}
+.personal-info .table > tbody > tr > td, .personal-info .table > tbody > tr > th, .personal-info .table > tfoot > tr > td, .personal-info .table > tfoot > tr > th, .personal-info .table > thead > tr > td, .personal-info .table > thead > tr > th {
+  border: 0;
+  padding: 0 5px !important;
+}
+.personal-info p {
+  margin-bottom: 0 !important;
+}
+.personal-info .cnic ul li:nth-child(6),
+.personal-info .cnic ul li:nth-child(3) {
+  background: transparent !important;
+}
+.personal-info .col-sm-12 {
+  width: 100%;
+  padding-left: 21px;
+}
+.personal-info .account-operated .holder label {
+  font-weight: normal;
+}
+.personal-info .inner-form-holder .form-control {
+  width: 100%;
+}
+.Signature-holder{
+  text-align: center;
+}
+.Signature-holder .inner-form-holder{
+    display: block;
+  }
+  .h-auto{
+    height: auto !important;
+  }
+.comparison-table{
+  max-width: 1200px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.comparison-table td{
+  border: 0;
+}
+.bank-check .amount-dig .account-title{
+      max-width: 265px;
+    float: right;
+}
+.bank-check .amount-dig .account-title h5{
+      min-width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
