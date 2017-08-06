@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-   <title>Analytics tool</title>
+    <title>Analytics tool</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,36 +31,36 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <div id="wrapper">
+        <div id="wrapper">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
 
-            <a class="navbar-brand" href="#">Analytics tool</a>
-            </div>
-            <!-- /.navbar-header -->
-                        <ul class="nav navbar-top-links navbar-right">
-                <li >
+                    <a class="navbar-brand" href="#">Analytics tool</a>
+                </div>
+                <!-- /.navbar-header -->
+                <ul class="nav navbar-top-links navbar-right">
+                  <li >
                     <a href="index.html">
                         Thumbnail
                     </a>
                 </li>
                 <li >
-                        <a href="comparison-form.html">
-                            Comparison
-                        </a>
-                    </li>
-                    <li >
-                        <a href="comparison-simple-form.html">
-                            Data Comparison
-                        </a>
+                    <a href="comparison-form.html">
+                        Comparison
+                    </a>
+                </li>
+                <li >
+                    <a href="comparison-simple-form.html">
+                        Basic Comparison
+                    </a>
                 </li>
                 <li >
                     <a href="first-form.html">
@@ -68,97 +68,104 @@
                     </a>
                 </li>
                 <li >
-                    <a href="data_with_operations.html" >
-                        Data With Operations
-                    </a>
-                </li>
-                <li >
-                    <a href="user-info-details.html" >
-                        User Graphs
-                    </a>
-                </li>
-                
-            </ul>
-        </nav>
+                    <a href="ocr.html">
+                      OCR
+                  </a>
+              </li>
+              <li >
+                <a href="data_with_operations.html" >
+                    Data With Operations
+                </a>
+            </li>
+            
+            <li >
+                <a href="user-info-details.html" >
+                    User Graphs
+                </a>
+            </li>
 
-        </nav>
+            
+        </ul>
+    </nav>
 
-        <div id="page-wrapper">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">User info</h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-            <div class="row">
-            <div class="col-lg-12">
-                <div class="panel-body bg-white">
-                                    <div class="table-responsive table-bordered">
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Br. Code</th>
-                                        <th>Account No.</th>
-                                        <th>Title of account</th>
-                                        <th>Tel:</th>
-                                        <th>Account to be operated</th>
-                                    </tr>
-                                </thead>
-                                    <tbody>
-                                        <tr class="odd gradeX">
-                                        <td>jacob Glen</td>
-                                        <td>00-22-119</td>
-                                        <td>8855-006621-21-22</td>
-                                        <td class="center">jacob</td>
-                                        <td class="center">+001 917 123 4567</td>
-                                        <td>Singly</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                </div>
-            </div>
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> User Chart
-                      
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-8 -->
-            </div>
-            <!-- /.row -->
+</nav>
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">User info</h1>
         </div>
-        <!-- /#page-wrapper -->
-
+        <!-- /.col-lg-12 -->
     </div>
-    <!-- /#wrapper -->
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel-body bg-white">
+                <div class="table-responsive table-bordered">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Br. Code</th>
+                                <th>Account No.</th>
+                                <th>Title of account</th>
+                                <th>Tel:</th>
+                                <th>Account to be operated</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd gradeX">
+                                <td>jacob Glen</td>
+                                <td>00-22-119</td>
+                                <td>8855-006621-21-22</td>
+                                <td class="center">jacob</td>
+                                <td class="center">+001 917 123 4567</td>
+                                <td>Singly</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-bar-chart-o fa-fw"></i> User Chart
+                    
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div id="morris-area-chart"></div>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-8 -->
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /#page-wrapper -->
 
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+</div>
+<!-- /#wrapper -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<script src="../vendor/jquery/jquery.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Morris Charts JavaScript -->
-    <script src="../vendor/raphael/raphael.min.js"></script>
-    <script src="../vendor/morrisjs/morris.min.js"></script>
-    <script src="../data/morris-data.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../vendor/metisMenu/metisMenu.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+<!-- Morris Charts JavaScript -->
+<script src="../vendor/raphael/raphael.min.js"></script>
+<script src="../vendor/morrisjs/morris.min.js"></script>
+<script src="../data/morris-data.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
 
