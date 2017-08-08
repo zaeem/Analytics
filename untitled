@@ -1,0 +1,17 @@
+
+
+
+
+
+$("body").prepend("<header><ul class='nav navbar-top-links navbar-right in' id='top_nav'></ul></header>");
+
+
+array = [' Thumbnail ', ' Comparison ']
+
+array_links = ['thumbnail.html','comparison-form.html']
+
+
+array.foreach(function(index, val){
+ $("#top_nav").append("<li><a href='+array_links[index]+' class='active">'+array[index]+'</a></li>);	
+})
+
