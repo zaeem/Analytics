@@ -25231,6 +25231,7 @@ max-height: 20px;
     box-shadow: none;
     background: transparent;
     padding: 0;
+        font-weight: bold;
     text-align: center;
 }
 .account-number-details ul li .form-control:focus{
@@ -25249,6 +25250,7 @@ max-height: 20px;
     box-shadow: none;
     border-top: 0;
     border-right: 0;
+    font-weight: bold;
     border-left: 0;
         width: 82%;
     border-radius: 0;
@@ -25544,6 +25546,18 @@ min-width: 86px;
   font-size: 30px;
   top: 15px;
   text-transform: capitalize;
+}
+.comparison-holder.ocr .account-operated .holder label{
+      font-weight: 700;
+    display: flex;
+    align-items: center;
+        font-size: 18px;
+}
+.comparison-holder.ocr .account-operated .holder label input[type="checkbox"]{
+  margin-top: 0;
+}
+.signature-holder .box input{
+      font-weight: bold;
 }
 /*custom-css End*/
 

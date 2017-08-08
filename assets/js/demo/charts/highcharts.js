@@ -579,7 +579,7 @@ var demoHighCharts = function () {
                         tickInterval: 0.5,
                         gridLineColor: '#e5eaee',
                         title: {
-                            text: 'Products (x1000)',
+                            text: 'Account (x1000)',
                             style: {
                                 color: bgDark,
                                 fontWeight: '600'
@@ -598,17 +598,17 @@ var demoHighCharts = function () {
                         enabled: false
                     },
                     series: [{
-                        name: '2013',
+                        name: '2015',
                         data: [2.615, 2.313, 1.81, 5.17, 0.815, 1.119, 1.512, 0.710, 1.15, 1.2, 1.39, 1.96]
                     }, {
-                        name: '2014',
+                        name: '2016',
                         data: [1.615, 2.013, 1.081, 3.017, 1.815, 1.519, 2.512, 1.710, 1.16, 1.19, 0.9, 1.16]
                     }, {
                         visible: false,
-                        name: '2015',
+                        name: '2017',
                         data: [1, 5, 5.7, 11.3, 20.1, 14.1, 18, 21.5, 25.2, 26.5, 8.6, 2.5]
                     }, {
-                        name: '2015',
+                        name: '2017',
                         data: [1.615, 2.913, 2.81, 4.17, 2.815, 3.119, 2.012, 1.710, 1.66, 2.19, 0.0, 0.0]
                     }]
                 });
